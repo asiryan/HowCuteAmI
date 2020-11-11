@@ -29,4 +29,15 @@ gender_model = "models/vgg_ilsvrc_16_gender_imdb_wiki.onnx"
 beauty_model = "models/beauty_resnet18.onnx"
 ```
 
-# 
+## How to Use
+```
+usage: python howbeautifulami.py [-i] --input_image
+```
+
+
+## References
+* Linzaer - [Ultra-lightweight face detection model](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB).
+* Rothe et al. - [IMDB-WIKI – 500k+ face images with age and gender labels](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/).
+* A diverse benchmark database for multi-paradigm facial beauty prediction - [SCUT-FBP5500](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release).
+* Microsoft - [ONNX Runtime](https://github.com/microsoft/onnxruntime).
+* Caffe to ONNX: [unofficial converter](https://github.com/asiryan/caffe-onnx).
