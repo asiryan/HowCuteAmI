@@ -20,3 +20,13 @@ Install python 3+ dependencies
 | beauty_alexnet | Beauty prediction | [217 MB](https://drive.google.com/file/d/1uXoP3XDx8s5oyo6VszOnG9qU_1P9Pik-/view?usp=sharing)| 1.5 | 5 | SCUT-FBP5500 |
 | beauty_resnet18 | Beauty prediction | [43 MB](https://drive.google.com/file/d/1gFGDBdKdiW1LWHMiPLMx6Tt9Y_0l7sOM/view?usp=sharing)| 1.5 | 5 | SCUT-FBP5500 |
 | beauty_resnext50 | Beauty prediction | [88 MB](https://drive.google.com/file/d/1gR8Rr6BcH1BlC_gRVbeou7oxJRQ4-wWK/view?usp=sharing)| 1.5 | 5 | SCUT-FBP5500 |
+
+**HowBeautifulAmI** model configuration
+```python
+face_model = "models/face_detector_ultra_light_640.onnx"
+age_model = "models/vgg_ilsvrc_16_age_imdb_wiki.onnx"
+gender_model = "models/vgg_ilsvrc_16_gender_imdb_wiki.onnx"
+beauty_model = "models/beauty_resnet18.onnx"
+```
+
+# 
