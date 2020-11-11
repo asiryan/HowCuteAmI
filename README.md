@@ -11,8 +11,8 @@ Install python 3+ dependencies
 ## ONNX Models
 | Model | Description | Download | ONNX version | Opset version | Dataset |
 |:-------------|:--------------|:--------------|:--------------|:--------------|:--------------|
-| face_detector_ultra_light_320 | Face detection | [1 MB](https://drive.google.com/file/d/1VfCqZgSFW7alMUfzxCnEH8r_NunOrqF2/view?usp=sharing)| 1.5 | 5 | - |
-| face_detector_ultra_light_640 | Face detection | [2 MB](https://drive.google.com/file/d/16NfgL14WXYT2LPQiBYpOr42m-pqkeaaI/view?usp=sharing)| 1.5 | 5 | - |
+| face_detector_ultra_light_320 | Face detection | [1 MB](https://drive.google.com/file/d/1VfCqZgSFW7alMUfzxCnEH8r_NunOrqF2/view?usp=sharing)| 1.5 | 5 | Widerface |
+| face_detector_ultra_light_640 | Face detection | [2 MB](https://drive.google.com/file/d/16NfgL14WXYT2LPQiBYpOr42m-pqkeaaI/view?usp=sharing)| 1.5 | 5 | Widerface |
 | vgg_ilsvrc_16_age_chalearn_iccv2015 | Age classification | [513 MB](https://drive.google.com/file/d/1V75U1kUJ0udBLs6bg3lGqBk3ym8q9guV/view?usp=sharing) | 1.5 | 5 | ChaLearn LAP 2015 |
 | vgg_ilsvrc_16_age_imdb_wiki | Age classification | [513 MB](https://drive.google.com/file/d/1ECle8EvsXiIid_vMa1_vwMJk6abhzrPF/view?usp=sharing)| 1.5 | 5 | IMDB-WIKI |
 | vgg_ilsvrc_16_gender_imdb_wiki | Gender classification | [512 MB](https://drive.google.com/file/d/1epLM5ghucLcnGZg-NCIf1r16lotN004I/view?usp=sharing)| 1.5 | 5 | IMDB-WIKI |
