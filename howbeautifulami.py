@@ -6,7 +6,7 @@ from utils.image_utils import resizeImage, cropImage, scaleRectangle
 import argparse
 
 # onnx models and params
-face_model = "models/face_detector_ultra_light_640_freeze.onnx"
+face_model = "models/face_detector_ultra_light_640.onnx"
 age_model = "models/vgg_ilsvrc_16_age_imdb_wiki.onnx"
 gender_model = "models/vgg_ilsvrc_16_gender_imdb_wiki.onnx"
 beauty_model = "models/beauty_resnet18.onnx"
