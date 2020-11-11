@@ -9,7 +9,7 @@ Install python 3+ dependencies
 - argparse
 
 ## ONNX Models
-| Model | Description | | Download | ONNX version | Opset version | Dataset |
+| Model | Description | Download | ONNX version | Opset version | Dataset |
 |:-------------|:--------------|:--------------|:--------------|:--------------|:--------------|
 | face_detector_ultra_light_320 | Face detection | [1 MB](https://drive.google.com/file/d/1VfCqZgSFW7alMUfzxCnEH8r_NunOrqF2/view?usp=sharing)| 1.5 | 5 | - |
 | face_detector_ultra_light_640 | Face detection | [2 MB](https://drive.google.com/file/d/16NfgL14WXYT2LPQiBYpOr42m-pqkeaaI/view?usp=sharing)| 1.5 | 5 | - |
