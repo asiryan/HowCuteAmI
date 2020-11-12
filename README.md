@@ -54,6 +54,9 @@ Age: 41.1
 Beauty: 8.1
 ```
 
+## License
+**MIT**
+
 ## References
 * Linzaer - [Ultra-lightweight face detection model](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB).
 * Rothe et al. - [IMDB-WIKI – 500k+ face images with age and gender labels](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/).
