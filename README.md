@@ -34,6 +34,7 @@ usage: python howbeautifulami.py [-i] --input_image
 ```
 <p align="center"><img width="40%" src="examples/charlize.jpg"/><img width="40%" src="examples/michael.jpg"/></p>   
 <p align="center"><b>Figure 1.</b> Results examples</p>  
+
 ```
 Image: images/charlize.jpg
 Detected faces: 1
@@ -50,7 +51,6 @@ Gender: Man
 Age: 41.1
 Beauty: 8.1
 ```
-
 
 ## References
 * Linzaer - [Ultra-lightweight face detection model](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB).
