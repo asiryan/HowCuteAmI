@@ -37,20 +37,18 @@ usage: python howbeautifulami.py [-i] --input_image
 ```
 Image: images/charlize.jpg
 Detected faces: 1
-------------------
+
 Gender: Woman
 Age: 37.3
 Beauty: 8.5
-------------------
 ```
 ```
 Image: images/michael.jpg
 Detected faces: 1
-------------------
+
 Gender: Man
 Age: 41.1
 Beauty: 8.1
-------------------
 ```
 
 
