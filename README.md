@@ -32,7 +32,7 @@ beauty_model = "models/beauty_resnet18.onnx"
 ```
 usage: python howbeautifulami.py [-i] --input_image
 ```
-<p align="center"><img width="40%" src="examples/charlize_processed.jpg"/><img width="40%" src="examples/michael_processed.jpg"/></p>   
+<p align="center"><img width="40%" src="examples/charlize.jpg"/><img width="40%" src="examples/michael.jpg"/></p>   
 <p align="center"><b>Figure 1.</b> Results examples</p> 
 
 
