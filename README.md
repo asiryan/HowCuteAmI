@@ -35,6 +35,7 @@ usage: python howbeautifulami.py [-i] --input_image
 <p align="center"><img width="40%" src="examples/charlize.jpg"/><img width="40%" src="examples/michael.jpg"/></p>   
 <p align="center"><b>Figure 1.</b> Results examples</p>  
 
+Python script results for **Charlize Theron** photo
 ```
 Image: images/charlize.jpg
 Detected faces: 1
@@ -43,6 +44,7 @@ Gender: Woman
 Age: 37.3
 Beauty: 8.5
 ```
+Python script results for **Michael Fassbender** photo
 ```
 Image: images/michael.jpg
 Detected faces: 1
