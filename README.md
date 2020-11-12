@@ -38,7 +38,6 @@ Results for **Charlize Theron** photo
 ```
 Image: images/charlize.jpg
 Detected faces: 1
-
 Gender: Woman
 Age: 37.3
 Beauty: 8.5
@@ -47,7 +46,6 @@ and for **Michael Fassbender** photo
 ```
 Image: images/michael.jpg
 Detected faces: 1
-
 Gender: Man
 Age: 41.1
 Beauty: 8.1
