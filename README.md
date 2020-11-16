@@ -9,7 +9,7 @@ Install python 3+ dependencies
 
 ## How to Use
 ```
-usage: python howbeautifulami.py [-i] --input_image
+usage: python howbeautifulami.py [-i] --image input_image
 ```
 <p align="center"><img width="40%" src="docs/charlize.jpg"/><img width="40%" src="docs/michael.jpg"/></p>   
 
