@@ -1,10 +1,6 @@
 # HowBeautifulAmI
 Python application for face detection and prediction age, gender and face beauty.
 
-## Technique
-As you know, the gender, age and beauty of a person is determined by his face. After detecting a face to obtain additional information about the face (hair, neck, ears, etc.), the selected area is artificially expanded while maintaining proportions. Then the expanded area of the face is cut into a separate image, to which convolutional neural networks are applied in turn to predict the gender, age and beauty of the face.
-<p align="center"><img width="100%" src="docs/technique_a.jpg" /></p>
-
 ## Dependencies
 Install python 3+ dependencies
 - opencv-python  
@@ -36,7 +32,7 @@ beauty_model = "models/beauty_resnet18.onnx"
 ```
 usage: python howbeautifulami.py [-i] --input_image
 ```
-<p align="center"><img width="40%" src="docs/charlize.jpg"/><img width="40%" src="docs/michael.jpg"/></p>   
+<p align="center"><img width="40%" src="examples/charlize.jpg"/><img width="40%" src="examples/michael.jpg"/></p>   
 
 Results for **Charlize Theron** photo
 ```
