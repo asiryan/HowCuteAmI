@@ -11,7 +11,7 @@ Install python 3+ dependencies
 ```
 usage: python howbeautifulami.py [-i] --input_image
 ```
-<p align="center"><img width="40%" src="docs/charlize.jpg"/><img width="40%" src="docs/michael.jpg"/></p>   
+<p align="center"><img width="40%" src="docs/result_charlize.jpg"/><img width="40%" src="docs/result_michael.jpg"/></p>   
 
 Results for **Charlize Theron** photo
 ```
