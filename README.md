@@ -11,23 +11,19 @@ Install python 3+ dependencies
 ```
 usage: python howbeautifulami.py [-i] --input_image
 ```
-<p align="center"><img width="40%" src="examples/charlize.jpg"/><img width="40%" src="examples/michael.jpg"/></p>   
+<p align="center"><img width="40%" src="docs/charlize.jpg"/><img width="40%" src="docs/michael.jpg"/></p>   
 
 Results for **Charlize Theron** photo
 ```
-Image: images/charlize.jpg
-Detected faces: 1
-Gender: Woman
-Age: 37.3
-Beauty: 8.6
+Gender: Female
+Age: 25-32 years
+Beauty: 8.6/10.0
 ```
 and for **Michael Fassbender** photo
 ```
-Image: images/michael.jpg
-Detected faces: 1
-Gender: Man
-Age: 41.1
-Beauty: 8.0
+Gender: Male
+Age: 38-43 years
+Beauty: 8.0/10.0
 ```
 
 ## License
