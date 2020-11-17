@@ -13,6 +13,7 @@ def highlightFace(net, frame, conf_threshold=0.95):
     net.setInput(blob)
     detections=net.forward()
     faceBoxes=[]
+
     for i in range(detections.shape[2]):
         confidence=detections[0,0,i,2]
         if confidence>conf_threshold:
@@ -73,7 +74,7 @@ MODEL_MEAN_VALUES=(78.4263377603, 87.7689143744, 114.895847746)
 ageList=['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(38-43)', '(48-53)', '(60-100)']
 genderList=['Male','Female']
 factor = 0.5
-color = (255,0,0)
+color = (0,255,255)
 
 faceNet=cv2.dnn.readNet(faceModel,faceProto)
 ageNet=cv2.dnn.readNet(ageModel,ageProto)
@@ -120,6 +121,6 @@ while cv2.waitKey(1)<0 :
         beauty=round(2.0 * sum(beautyPreds[0]), 1)
         print(f'Beauty: {beauty}/10.0')
 
-        cv2.putText(resultImg, f'{gender}, {age}, {beauty}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2, cv2.LINE_AA)
+        cv2.putText(resultImg, f'{gender}, {age}, {beauty}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 1.25, color, 2, cv2.LINE_AA)
         cv2.imshow("howbeautifulami", resultImg)
         cv2.imwrite("howbeautifulami.jpg", resultImg)
