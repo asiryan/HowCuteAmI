@@ -31,6 +31,5 @@ Beauty: 8.0/10.0
 
 ## References
 * Lapuschkin et al. - Understanding and Comparing Deep Neural Networks for Age and Gender Classification - [Data and Models](https://github.com/sebastian-lapuschkin/understanding-age-gender-deep-learning-models).
-* Linzaer - [Ultra-lightweight face detection model](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB).
 * Rothe et al. - [IMDB-WIKI – 500k+ face images with age and gender labels](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/).
 * A diverse benchmark database for multi-paradigm facial beauty prediction - [SCUT-FBP5500](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release).
